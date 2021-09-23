@@ -7,11 +7,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
 
-    private Calculator calc = new Calculator();
+//    private Calculator calc = new Calculator();
 
     @Test
      void getSum() {
-        assertEquals(calc.getSum(23,34), 57);
+        assertEquals(Calculator.getSum(23,34), 57);
     }
 
 }
